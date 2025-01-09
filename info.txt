@@ -1,0 +1,12 @@
+Laravel Migrations - Job Email
+
+
+Entrar no CMD, no diretorio do projeto onde tem o ARTISAN e rodar o comando
+
+php artisan make:migration create_job_table
+php artisan migrate
+
+
+
+Executando na linha de comando:
+php artisan queue:work --daemon
