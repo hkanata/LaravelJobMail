@@ -10,3 +10,7 @@ php artisan migrate
 
 Executando na linha de comando:
 php artisan queue:work --daemon
+
+
+no linux:
+nohup php artisan queue:work --daemon
