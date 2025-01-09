@@ -14,3 +14,10 @@ php artisan queue:work --daemon
 
 no linux:
 nohup php artisan queue:work --daemon
+
+
+nohup php artisan queue:work --daemon &
+
+
+Lista os jobs nohup
+jobs -l
