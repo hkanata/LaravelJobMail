@@ -21,3 +21,13 @@ nohup php artisan queue:work --daemon &
 
 Lista os jobs nohup
 jobs -l
+
+
+
+Ao alterar as configurações rodar o comando
+php artisan config:clear
+
+php artisan optimize:clear
+
+
+nohup php artisan queue:work --daemon > /home/zapcarro/public_html/outputnohup.txt &
